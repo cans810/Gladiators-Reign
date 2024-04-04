@@ -30,7 +30,7 @@ public class CommonActions : MonoBehaviour
     }
 
     public void AttackMelee(){
-        if (attributes.battleAI.currentEnemyChosen != null){
+        if (attributes.battleAI.currentEnemyChosen != null && attributes.battleAI.currentEnemyChosen.GetComponent<Attributes>().alive){
             animator.SetBool("AttackMelee_1",true);
         }
     }
@@ -51,6 +51,8 @@ public class CommonActions : MonoBehaviour
 
         attributes.battleAI.targetWalkPos = ImproveTargetPos(attributes.battleAI.currentEnemyChosen.transform.position);
 
+        attributes.battleAI.targetWalkPos = ImproveTargetPos(attributes.battleAI.currentEnemyChosen.transform.position);
+
         Vector2 direction = (attributes.battleAI.targetWalkPos - (Vector2)transform.position).normalized;
 
         GetComponent<Rigidbody2D>().velocity = direction * attributes.walk_speed;
@@ -67,9 +69,7 @@ public class CommonActions : MonoBehaviour
     }
 
     public void DamageMelee(){
-        if (attributes.battleAI.currentEnemyChosen != null){
-            attributes.battleAI.currentEnemyChosen.GetComponent<Attributes>().HP -= 5;
-        }
+        attributes.battleAI.currentEnemyChosen.GetComponent<Attributes>().HP -= 5;
     }
 
     public void StopAttackMelee(){
@@ -77,7 +77,7 @@ public class CommonActions : MonoBehaviour
         animator.SetBool("AttackMelee_1", false);
         attributes.inAction = false;
 
-        //attributes.battleAI.currentEnemyChosen = null;
+        attributes.battleAI.currentEnemyChosen = null;
     }
 
     public bool hasArrivedToAttack(Vector2 targetPos){
@@ -137,7 +137,7 @@ public class CommonActions : MonoBehaviour
         attributes.battleAI.boolActionsDict["KeepDistance"] = false;
         attributes.inAction = false;
 
-        //attributes.battleAI.currentEnemyChosen = null;
+        attributes.battleAI.currentEnemyChosen = null;
     }
 
     public bool hasArrivedToWalkDest(Vector2 targetPos){
@@ -156,29 +156,33 @@ public class CommonActions : MonoBehaviour
     public void StandStill(){
         attributes.inAction = true;
 
-        StartCoroutine(StandStillCoroutine());
+        StartCoroutine(WalkToPointMeleeAttackCoroutine());
     }
 
-    IEnumerator StandStillCoroutine()
+    IEnumerator WalkToPointMeleeAttackCoroutine()
     {
-        attributes.battleAI.boolActionsDict["StandStill"] = true;
+        animator.SetBool("Walk", true);
 
+        attributes.battleAI.boolActionsDict["WalkToPointMeleeAttack"] = true;
+
+        attributes.battleAI.targetWalkPos = ImproveTargetPos(attributes.battleAI.currentEnemyChosen.transform.position);
+
+        attributes.battleAI.targetWalkPos = ImproveTargetPos(attributes.battleAI.currentEnemyChosen.transform.position);
+
+        Vector2 direction = (attributes.battleAI.targetWalkPos - (Vector2)transform.position).normalized;
+
+        GetComponent<Rigidbody2D>().velocity = direction * attributes.walk_speed;
+
+        while (!hasArrivedToAttack(attributes.battleAI.targetWalkPos))
+        {
+            yield return null; // Wait for the next frame
+        }
+
+        animator.SetBool("Walk",false);
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 
-        // generate a random duration between 0.5 to 1.5 seconds
-        float randomDuration = Random.Range(0.5f, 1f);
-
-        yield return new WaitForSeconds(randomDuration);
-
-        StopStandStill();
+        AttackMelee();
     }
-
-    public void StopStandStill(){
-        attributes.battleAI.boolActionsDict["StandStill"] = false;
-
-        attributes.inAction = false;
-    }
-
 
     public GameObject FindNearestEnemy()
     {

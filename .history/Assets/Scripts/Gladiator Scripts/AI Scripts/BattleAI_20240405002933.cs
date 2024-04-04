@@ -23,7 +23,7 @@ public class BattleAI : MonoBehaviour
         boolActionsDict = new Dictionary<string, bool>();
         boolActionsDict.Add("WalkToPointMeleeAttack",false);
         boolActionsDict.Add("KeepDistance",false);
-        boolActionsDict.Add("StandStill",false);
+        boolActionsDict.Add("KeepDistance",false);
 
         actionsList = new List<string>();
         foreach (string key in boolActionsDict.Keys)

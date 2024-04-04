@@ -67,9 +67,8 @@ public class CommonActions : MonoBehaviour
     }
 
     public void DamageMelee(){
-        if (attributes.battleAI.currentEnemyChosen != null){
-            attributes.battleAI.currentEnemyChosen.GetComponent<Attributes>().HP -= 5;
-        }
+        if ()
+        attributes.battleAI.currentEnemyChosen.GetComponent<Attributes>().HP -= 5;
     }
 
     public void StopAttackMelee(){
@@ -77,7 +76,7 @@ public class CommonActions : MonoBehaviour
         animator.SetBool("AttackMelee_1", false);
         attributes.inAction = false;
 
-        //attributes.battleAI.currentEnemyChosen = null;
+        attributes.battleAI.currentEnemyChosen = null;
     }
 
     public bool hasArrivedToAttack(Vector2 targetPos){
@@ -137,7 +136,7 @@ public class CommonActions : MonoBehaviour
         attributes.battleAI.boolActionsDict["KeepDistance"] = false;
         attributes.inAction = false;
 
-        //attributes.battleAI.currentEnemyChosen = null;
+        attributes.battleAI.currentEnemyChosen = null;
     }
 
     public bool hasArrivedToWalkDest(Vector2 targetPos){
@@ -166,7 +165,7 @@ public class CommonActions : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 
         // generate a random duration between 0.5 to 1.5 seconds
-        float randomDuration = Random.Range(0.5f, 1f);
+        float randomDuration = Random.Range(0.5f, 1.5f);
 
         yield return new WaitForSeconds(randomDuration);
 

@@ -166,7 +166,7 @@ public class CommonActions : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 
         // generate a random duration between 0.5 to 1.5 seconds
-        float randomDuration = Random.Range(0.5f, 1f);
+        float randomDuration = Random.Range(0.5f, 1.5f);
 
         yield return new WaitForSeconds(randomDuration);
 
