@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 5a115438ae71c3b4cbbefccde6f22a80
+  - enabled: 1
+    path: Assets/Scenes/GladiatorCreationScene.unity
+    guid: ce53e2e805645d74baa937b79a5e8163
+  - enabled: 1
+    path: Assets/Scenes/TownScene.unity
+    guid: 042920ebb965aea419fc1a58b26e1042
+  - enabled: 1
+    path: Assets/Scenes/BattleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: 62b747d4ba5a79341b3add7ce7b95961
+  - enabled: 1
+    path: Assets/Scenes/ArenaScene.unity
+    guid: a1c482d40e70f0245ab1d61f02b05261
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

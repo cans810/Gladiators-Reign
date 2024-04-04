@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: HumanEyes
+    m_Hash: 240408071
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: eyeNormal
+      m_Hash: 227014093
+      m_Sprite: {fileID: 3620559995015737340, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3620559995015737340, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+    - m_Name: eyeRight
+      m_Hash: 801757098
+      m_Sprite: {fileID: -7673620012088478596, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7673620012088478596, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+    - m_Name: eyeLeft
+      m_Hash: 34377538
+      m_Sprite: {fileID: -7564875112957421280, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7564875112957421280, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+    - m_Name: eyeHurt
+      m_Hash: 1072065584
+      m_Sprite: {fileID: -7630710861482641379, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7630710861482641379, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: HumanNose
+    m_Hash: 699534914
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nose
+      m_Hash: 16542931
+      m_Sprite: {fileID: -6029143033524290126, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6029143033524290126, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: HumanMouth
+    m_Hash: 421835047
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: mouthNormal
+      m_Hash: 767025709
+      m_Sprite: {fileID: -2858560062463942017, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2858560062463942017, guid: 647dd4d21fbd9e249954b60a65dcfe62, type: 3}
+    - m_Name: mouthHurt
+      m_Hash: 62142629
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: mouthShouting
+      m_Hash: 731031061
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: ElfEyes
+    m_Hash: 74943704
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: eyeNormal
+      m_Hash: 227014093
+      m_Sprite: {fileID: -6744276211796645436, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6744276211796645436, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+    - m_Name: eyeLeft
+      m_Hash: 34377538
+      m_Sprite: {fileID: 5041363863171850855, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5041363863171850855, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+    - m_Name: eyeRight
+      m_Hash: 801757098
+      m_Sprite: {fileID: -8221314440943929731, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8221314440943929731, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+    - m_Name: eyeHurt
+      m_Hash: 1072065584
+      m_Sprite: {fileID: 8319066906388223456, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8319066906388223456, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: ElfNose
+    m_Hash: 596759709
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nose
+      m_Hash: 16542931
+      m_Sprite: {fileID: 4772205678894330762, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4772205678894330762, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: ElfMouth
+    m_Hash: 264396216
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: mouthNormal
+      m_Hash: 767025709
+      m_Sprite: {fileID: 5379655044440587954, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5379655044440587954, guid: 043ea299c3e812d44b4454c28c42eb84, type: 3}
+    - m_Name: mouthHurt
+      m_Hash: 62142629
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: mouthShouting
+      m_Hash: 731031061
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: EasternHumanEyes
+    m_Hash: 517404798
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: eyeNormal
+      m_Hash: 227014093
+      m_Sprite: {fileID: 6709029182745231429, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6709029182745231429, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+    - m_Name: eyeLeft
+      m_Hash: 34377538
+      m_Sprite: {fileID: -640987076398405767, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -640987076398405767, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+    - m_Name: eyeRight
+      m_Hash: 801757098
+      m_Sprite: {fileID: -8356387079350926956, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8356387079350926956, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+    - m_Name: eyeHurt
+      m_Hash: 1072065584
+      m_Sprite: {fileID: -1684516009586592120, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1684516009586592120, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: EasternHumanNose
+    m_Hash: 959488059
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nose
+      m_Hash: 16542931
+      m_Sprite: {fileID: -4390805764681619866, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4390805764681619866, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: EasternHumanMouth
+    m_Hash: 812513809
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: mouthNormal
+      m_Hash: 767025709
+      m_Sprite: {fileID: 1697556621418449656, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1697556621418449656, guid: 9357b7dedbd67e54eb4cf93d46db2a2b, type: 3}
+    - m_Name: mouthHurt
+      m_Hash: 62142629
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: mouthShouting
+      m_Hash: 731031061
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: OrcEyes
+    m_Hash: 289095437
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: eyeNormal
+      m_Hash: 227014093
+      m_Sprite: {fileID: -3978058668511910293, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3978058668511910293, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+    - m_Name: eyeRight
+      m_Hash: 801757098
+      m_Sprite: {fileID: 4989872855032467482, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4989872855032467482, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+    - m_Name: eyeLeft
+      m_Hash: 34377538
+      m_Sprite: {fileID: -3978222006194360298, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3978222006194360298, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+    - m_Name: eyeHurt
+      m_Hash: 1072065584
+      m_Sprite: {fileID: -30754587880726306, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -30754587880726306, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: OrcNose
+    m_Hash: 920479560
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nose
+      m_Hash: 16542931
+      m_Sprite: {fileID: 99178827943472203, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 99178827943472203, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: OrcMouth
+    m_Hash: 959330128
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: mouthNormal
+      m_Hash: 767025709
+      m_Sprite: {fileID: -4963591183178033928, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4963591183178033928, guid: 5a4fe4da11aff214691359ce38755692, type: 3}
+    - m_Name: mouthHurt
+      m_Hash: 62142629
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: mouthShouting
+      m_Hash: 731031061
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638474456316129873
+  m_Version: 1

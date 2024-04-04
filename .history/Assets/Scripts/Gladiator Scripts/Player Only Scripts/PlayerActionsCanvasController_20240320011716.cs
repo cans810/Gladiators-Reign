@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PlayerActionsCanvasController : MonoBehaviour
+{
+
+    public void Awake(){
+
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.position = new Vector3()
+    }
+
+    public void walkRight(){
+        Player.Instance.gameObject.GetComponent<CommonActions>().WalkRight();
+    }
+
+    public void walkLeft(){
+        Player.Instance.gameObject.GetComponent<CommonActions>().WalkLeft();
+    }
+}
