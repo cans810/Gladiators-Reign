@@ -245,6 +245,180 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: 0}
     m_FromMain: 0
     m_EntryOverrideCount: 3
+  - m_Name: TrollEyes
+    m_Hash: 530890732
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: eyeNormal
+      m_Hash: 227014093
+      m_Sprite: {fileID: 2970456855532724629, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2970456855532724629, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+    - m_Name: eyeRight
+      m_Hash: 801757098
+      m_Sprite: {fileID: 5579769379091127904, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5579769379091127904, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+    - m_Name: eyeLeft
+      m_Hash: 34377538
+      m_Sprite: {fileID: -6488328267505642688, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6488328267505642688, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+    - m_Name: eyeHurt
+      m_Hash: 1072065584
+      m_Sprite: {fileID: 2420466104670880955, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2420466104670880955, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: TrollNose
+    m_Hash: 943908777
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nose
+      m_Hash: 16542931
+      m_Sprite: {fileID: -2460958548801258272, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2460958548801258272, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: TrollMouth
+    m_Hash: 787315262
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: mouthNormal
+      m_Hash: 767025709
+      m_Sprite: {fileID: 4024058932297848415, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4024058932297848415, guid: 787f9a676de8f8041bc685e5712613fa, type: 3}
+    - m_Name: mouthShouting
+      m_Hash: 731031061
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: mouthHurt
+      m_Hash: 62142629
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: DemonEyes
+    m_Hash: 785511752
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: eyeNormal
+      m_Hash: 227014093
+      m_Sprite: {fileID: 4286885717425816769, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4286885717425816769, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+    - m_Name: eyeRight
+      m_Hash: 801757098
+      m_Sprite: {fileID: -5129611569575012977, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5129611569575012977, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+    - m_Name: eyeLeft
+      m_Hash: 34377538
+      m_Sprite: {fileID: -6765455685220535838, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6765455685220535838, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+    - m_Name: eyeHurt
+      m_Hash: 1072065584
+      m_Sprite: {fileID: 6163917723260616635, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6163917723260616635, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: DemonNose
+    m_Hash: 154643725
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nose
+      m_Hash: 16542931
+      m_Sprite: {fileID: -7053806962434769011, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7053806962434769011, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: DemonMouth
+    m_Hash: 1072130181
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: mouthNormal
+      m_Hash: 767025709
+      m_Sprite: {fileID: -3965420958996160243, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3965420958996160243, guid: daff40dc37defeb4799764992b4b9d5c, type: 3}
+    - m_Name: mouthShouting
+      m_Hash: 731031061
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: mouthHurt
+      m_Hash: 62142629
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: WraithEyes
+    m_Hash: 1004896488
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: eyeNormal
+      m_Hash: 227014093
+      m_Sprite: {fileID: 1507958312448569080, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1507958312448569080, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+    - m_Name: eyeRight
+      m_Hash: 801757098
+      m_Sprite: {fileID: -9068581529483093258, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -9068581529483093258, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+    - m_Name: eyeLeft
+      m_Hash: 34377538
+      m_Sprite: {fileID: -5799143666601869015, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5799143666601869015, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+    - m_Name: eyeHurt
+      m_Hash: 1072065584
+      m_Sprite: {fileID: 7314583889843541547, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7314583889843541547, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: WraithNose
+    m_Hash: 470014125
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nose
+      m_Hash: 16542931
+      m_Sprite: {fileID: -2003568972756823327, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2003568972756823327, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: WraithMouth
+    m_Hash: 698679064
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: mouthNormal
+      m_Hash: 767025709
+      m_Sprite: {fileID: -2760283698423991860, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2760283698423991860, guid: c8b8ada5db04c1c43a874607a33345c6, type: 3}
+    - m_Name: mouthShoting
+      m_Hash: 372131147
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: mouthHurt
+      m_Hash: 62142629
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 638474456316129873
+  m_ModificationHash: 638495789454489067
   m_Version: 1

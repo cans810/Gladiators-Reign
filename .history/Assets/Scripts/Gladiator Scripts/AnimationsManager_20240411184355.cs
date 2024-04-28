@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AnimationsController : MonoBehaviour
+{
+    Attributes attributes;
+    // Start is called before the first frame update
+    void Start()
+    {
+        attributes = G
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void StartAnim(string animName,bool isAnAction){
+        if (isAnAction){
+
+        }
+    }
+}
