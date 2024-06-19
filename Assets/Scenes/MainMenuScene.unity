@@ -472,6 +472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerGLs: []
+  playerInventory: []
   startTimer: 0
   completedChapter1: 0
   elapsedTimeInSeconds: 0
@@ -1020,12 +1021,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e85b6249f8d0046b402ae439d90ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allArmors: []
   allHelmets:
   - {fileID: 1169677524420996509, guid: bd5d84679bbe31b4a95da30dd9765d0f, type: 3}
+  - {fileID: 1169677524420996509, guid: 0d5075cd44fa61340ab4985e7e7f2e76, type: 3}
   allChestplates:
   - {fileID: 7718675758268509771, guid: 38c0c981d099ca746ba550910f68dce2, type: 3}
   allShoulderguards:
   - {fileID: 8184882861401060646, guid: 74bde415b1dfc104bb4a4a8cb73a08fb, type: 3}
+  allWristGuards: []
+  allPants: []
+  allLegGuards: []
+  allShinGuards: []
+  allShoes: []
 --- !u!4 &1536077681
 Transform:
   m_ObjectHideFlags: 0
