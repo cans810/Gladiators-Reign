@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arena_entrance_0: 2304932778385190368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

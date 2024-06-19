@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenuScene.unity
     guid: 5a115438ae71c3b4cbbefccde6f22a80
   - enabled: 1
-    path: Assets/Scenes/GladiatorCreationScene.unity
+    path: Assets/Scenes/FirstGladiatorSelectionScene.unity
     guid: ce53e2e805645d74baa937b79a5e8163
   - enabled: 1
     path: Assets/Scenes/TownScene.unity
@@ -23,5 +23,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ArenaScene.unity
     guid: a1c482d40e70f0245ab1d61f02b05261
+  - enabled: 1
+    path: Assets/Scenes/DungeonChapter/DungeonScene.unity
+    guid: f82221ab808efc14c86e06825f067fc4
+  - enabled: 1
+    path: Assets/Scenes/DungeonChapter/DungeonHomeScene.unity
+    guid: 7b7c549eacf4f3c4fb4d31d3e47399a2
+  - enabled: 1
+    path: Assets/Scenes/DungeonChapter/DungeonBlackSmithScene.unity
+    guid: e662ac89ce88f2e42ac66a728d85ec58
+  - enabled: 1
+    path: Assets/Scenes/DungeonChapter/BeforeBattleCellScene.unity
+    guid: 66fa5370a872f394797c5571f11669b2
+  - enabled: 1
+    path: Assets/Scenes/DungeonChapter/DungeonBattleArrangerScene.unity
+    guid: be5abcfd83703ee4a893160dd6d460a0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
