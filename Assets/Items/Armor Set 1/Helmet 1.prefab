@@ -48,6 +48,7 @@ MonoBehaviour:
   itemName: Helmet 1
   texture: {fileID: 0}
   spriteRenderer: {fileID: 5388745899451949601}
+  details: When worn on head, increases chances of survival.
   armorPoint: 0
   equippedBy: {fileID: 0}
 --- !u!212 &5388745899451949601

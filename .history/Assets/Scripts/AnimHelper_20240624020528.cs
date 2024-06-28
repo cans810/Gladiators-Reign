@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public static class AnyAnimManager
+{
+    private IEnumerator getKilledCoroutine(string animationName){
+
+        // get the Animator component
+        Animator animator = glManager.animator;
+
+        // get the AnimatorStateInfo for the base layer
+        AnimatorStateInfo currentAnimState = animator.GetCurrentAnimatorStateInfo(0);
+
+        // check if any animation is currently playing
+        if (currentAnimState.normalizedTime < 1.0f)
+        {
+            // get the current animation clip information
+            AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
+
+            // get the clip name (assuming there's only one clip playing)
+            string currentAnimName = clipInfo[0].clip.name;
+
+            // set the boolean parameter with the current animation name
+            glManager.animationsManager.StopAnim(currentAnimName);
+        }
+
+}

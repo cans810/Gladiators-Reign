@@ -122,8 +122,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 134
-      y: 4
+      x: 4
+      y: 263
       width: 90
       height: 126
     spriteID: 649dd500e330ac14bb4d9d28b9876d4e
@@ -134,8 +134,197 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 134, y: 4}
+    uvTransform: {x: 4, y: 263}
     spritePosition: {x: 19, y: 0}
+  - name: Layer 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 46
+      width: 56
+      height: 28
+    spriteID: e097038c490718d478bff6ba3246f1ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 46}
+    spritePosition: {x: 36, y: 50}
+  - name: Layer 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 82
+      width: 56
+      height: 28
+    spriteID: d82c6cbb7d2f9504d88db2add8a7df54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 82}
+    spritePosition: {x: 36, y: 50}
+  - name: Layer 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 136
+      width: 56
+      height: 28
+    spriteID: a3a0f2c40fa938b48b0c0b752f272547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 136}
+    spritePosition: {x: 36, y: 50}
+  - name: Layer 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 172
+      width: 56
+      height: 28
+    spriteID: 1e62a95c56a165646afbadde66a0b9f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 172}
+    spritePosition: {x: 36, y: 50}
+  - name: battleendbg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 397
+      width: 76
+      height: 93
+    spriteID: 51e3f12e042a79445a2665eea301f42f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 397}
+    spritePosition: {x: 26, y: 20}
+  - name: rewardbg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 136
+      width: 119
+      height: 119
+    spriteID: 021f5fd03c7c3e74c8b21d3ee6eab6af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 136}
+    spritePosition: {x: 3, y: 4}
+  - name: chooseSword
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 397
+      width: 30
+      height: 84
+    spriteID: eeb00e06b1c3ad040ac55a0fe9143e24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 397}
+    spritePosition: {x: 49, y: 19}
+  - name: npcframe
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 82
+      width: 38
+      height: 34
+    spriteID: c89c1b0957fd0654cb44275ab0606288
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 82}
+    spritePosition: {x: 45, y: 47}
+  - name: talkboxbg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 4
+      width: 74
+      height: 34
+    spriteID: 4e19982488f00b44a91f4c7475a3b79c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 4}
+    spritePosition: {x: 27, y: 47}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -237,6 +426,96 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 649dd500e330ac14bb4d9d28b9876d4e
     layerID: 2
+    mosaicPosition: {x: 4, y: 263}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 7
+    spriteName: Layer 7
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e097038c490718d478bff6ba3246f1ee
+    layerID: 28
+    mosaicPosition: {x: 134, y: 46}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 6
+    spriteName: Layer 6
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d82c6cbb7d2f9504d88db2add8a7df54
+    layerID: 26
+    mosaicPosition: {x: 134, y: 82}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 5
+    spriteName: Layer 5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a3a0f2c40fa938b48b0c0b752f272547
+    layerID: 24
+    mosaicPosition: {x: 131, y: 136}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 4
+    spriteName: Layer 4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1e62a95c56a165646afbadde66a0b9f9
+    layerID: 22
+    mosaicPosition: {x: 131, y: 172}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: battleendbg
+    spriteName: battleendbg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 51e3f12e042a79445a2665eea301f42f
+    layerID: 29
+    mosaicPosition: {x: 4, y: 397}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: rewardbg
+    spriteName: rewardbg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 021f5fd03c7c3e74c8b21d3ee6eab6af
+    layerID: 36
+    mosaicPosition: {x: 4, y: 136}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: chooseSword
+    spriteName: chooseSword
+    isGroup: 0
+    parentIndex: -1
+    spriteID: eeb00e06b1c3ad040ac55a0fe9143e24
+    layerID: 35
+    mosaicPosition: {x: 88, y: 397}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: npcframe
+    spriteName: npcframe
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c89c1b0957fd0654cb44275ab0606288
+    layerID: 34
+    mosaicPosition: {x: 198, y: 82}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: talkboxbg
+    spriteName: talkboxbg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4e19982488f00b44a91f4c7475a3b79c
+    layerID: 33
     mosaicPosition: {x: 134, y: 4}
     flatten: 0
     isImported: 1

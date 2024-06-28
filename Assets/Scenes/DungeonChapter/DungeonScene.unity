@@ -183,6 +183,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4860620484866611518, guid: 60f2598a8f4287d4caa9eb34eead48ee, type: 3}
+      propertyPath: glManager
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5752376105869058378, guid: 60f2598a8f4287d4caa9eb34eead48ee, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -248,6 +252,7 @@ PrefabInstance:
     - {fileID: 675236041473562697, guid: 60f2598a8f4287d4caa9eb34eead48ee, type: 3}
     - {fileID: 4082816466963433090, guid: 60f2598a8f4287d4caa9eb34eead48ee, type: 3}
     - {fileID: 3334209229736832394, guid: 60f2598a8f4287d4caa9eb34eead48ee, type: 3}
+    - {fileID: 8822614646214560702, guid: 60f2598a8f4287d4caa9eb34eead48ee, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60f2598a8f4287d4caa9eb34eead48ee, type: 3}
