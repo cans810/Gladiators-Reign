@@ -1,0 +1,81 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GLEffectsManager : MonoBehaviour
+{
+    private GameObject gladiator;
+
+    public GladiatorManager glManager;
+
+    public Material normal;
+
+    public Material leveledUpEffect;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        gladiator = transform.parent.gameObject;
+
+        glManager = gladiator.GetComponent<GladiatorManager>();
+    }
+
+    public void Normal(){
+        glManager.ChangeMaterial(normal);
+    }
+
+    public void LeveledUpEffect(){
+        glManager.ChangeMaterial(leveledUpEffect);
+    }
+}
+
+public class PixelBloodEffect : MonoBehaviour
+{
+    public int numberOfParticles = 100;
+    public float lifetime = 1f;
+    public float minSpeed = 1f;
+    public float maxSpeed = 3f;
+    public Color bloodColor = Color.red;
+
+    private new ParticleSystem particleSystem;
+
+    void Start()
+    {
+        // Create a new ParticleSystem
+        particleSystem = gameObject.AddComponent<ParticleSystem>();
+
+        // Get the main module of the ParticleSystem to modify its properties
+        var main = particleSystem.main;
+        main.startLifetime = lifetime;
+        main.startSpeed = Random.Range(minSpeed, maxSpeed);
+        main.startSize = 0.01f; // Small size to represent a pixel
+        main.startColor = bloodColor;
+
+        // Set up emission
+        var emission = particleSystem.emission;
+        emission.rateOverTime = 0;
+        emission.SetBursts(new ParticleSystem.Burst[]
+        {
+            new ParticleSystem.Burst(0f, numberOfParticles)
+        });
+
+        // Set up shape
+        var shape = particleSystem.shape;
+        shape.shapeType = ParticleSystemShapeType.Sphere;
+        shape.radius = 0.1f;
+
+        // Set up renderer
+        var renderer = particleSystem.GetComponent<ParticleSystemRenderer>();
+        renderer.material = new Material(Shader.Find("Particles/Standard Unlit"));
+        renderer.renderMode = ParticleSystemRenderMode.Billboard;
+
+        // Play the particle system
+        particleSystem.Play();
+    }
+
+    public void Emit(Vector3 position)
+    {
+        transform.position = position;
+        particleSystem.Emit(numberOfParticles);
+    }
+}

@@ -1909,6 +1909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GLBelongTo: {fileID: 0}
   GLName: {fileID: 6423168278038831352}
+  GLClass: {fileID: 5591634989785466797}
   atrb_Vitalis: {fileID: 1907062301143929613}
   atrb_Vigor: {fileID: 315411082986176685}
   atrb_Resolve: {fileID: 4411208835726229665}
@@ -2190,7 +2191,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -28.79486, y: 0, z: 54.035366, w: 14.825058}
+  m_margin: {x: -28.79486, y: 0, z: -158.89203, w: 14.825058}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2941,7 +2942,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -9025472261357173880, guid: 360dfdb2526416e488b8163548c7bd35, type: 3}
+  m_Sprite: {fileID: -4331969754707133386, guid: 360dfdb2526416e488b8163548c7bd35, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

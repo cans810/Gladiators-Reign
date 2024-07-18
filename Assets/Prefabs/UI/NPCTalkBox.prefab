@@ -191,7 +191,6 @@ MonoBehaviour:
   baseDelayBetweenCharacters: 0.035
   initialDelay: 1
   textComponent: {fileID: 4531833852790227807}
-  finished: 0
 --- !u!1 &5968346073237733206
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +360,7 @@ SpriteRenderer:
   m_SortingLayerID: -2028347635
   m_SortingLayer: 4
   m_SortingOrder: 18
-  m_Sprite: {fileID: -9025472261357173880, guid: 360dfdb2526416e488b8163548c7bd35, type: 3}
+  m_Sprite: {fileID: -4331969754707133386, guid: 360dfdb2526416e488b8163548c7bd35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

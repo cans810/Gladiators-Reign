@@ -136,6 +136,27 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 59}
     spritePosition: {x: 55, y: 192}
+  - name: eye blink
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 104
+      width: 18
+      height: 6
+    spriteID: 18b67fea08ab8f24192c56f5770b62cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 104}
+    spritePosition: {x: 55, y: 193}
   - name: eye left
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -185,8 +206,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 117
+      x: 18
+      y: 118
       width: 4
       height: 6
     spriteID: 0505daff11ae84647bbe651fcad00b86
@@ -197,7 +218,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 117}
+    uvTransform: {x: 18, y: 118}
     spritePosition: {x: 63, y: 187}
   - name: mouth shouting
     originalName: 
@@ -207,7 +228,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 104
+      y: 118
       width: 6
       height: 5
     spriteID: 4826b5e090c45074ba687d492b746d4d
@@ -218,7 +239,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 104}
+    uvTransform: {x: 4, y: 118}
     spritePosition: {x: 61, y: 181}
   - name: mouth frown
     originalName: 
@@ -227,8 +248,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 18
-      y: 104
+      x: 38
+      y: 4
       width: 8
       height: 3
     spriteID: 3351867065cf89b44b6fb46179e5ffe8
@@ -239,7 +260,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 18, y: 104}
+    uvTransform: {x: 38, y: 4}
     spritePosition: {x: 60, y: 182}
   - name: mouth normal
     originalName: 
@@ -248,8 +269,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 16
-      y: 117
+      x: 38
+      y: 15
       width: 6
       height: 1
     spriteID: 1f23562e7499d9f44a95634ec1a8fd84
@@ -260,7 +281,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 16, y: 117}
+    uvTransform: {x: 38, y: 15}
     spritePosition: {x: 61, y: 183}
   - name: head
     originalName: 
@@ -398,6 +419,16 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
+  - name: eye blink
+    spriteName: eye blink
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 18b67fea08ab8f24192c56f5770b62cc
+    layerID: 95
+    mosaicPosition: {x: 4, y: 104}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: eye left
     spriteName: eye left
     isGroup: 0
@@ -431,10 +462,10 @@ ScriptedImporter:
   - name: nose
     spriteName: nose
     isGroup: 0
-    parentIndex: 5
+    parentIndex: 6
     spriteID: 0505daff11ae84647bbe651fcad00b86
     layerID: 84
-    mosaicPosition: {x: 4, y: 117}
+    mosaicPosition: {x: 18, y: 118}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -451,30 +482,30 @@ ScriptedImporter:
   - name: mouth shouting
     spriteName: mouth shouting
     isGroup: 0
-    parentIndex: 7
+    parentIndex: 8
     spriteID: 4826b5e090c45074ba687d492b746d4d
     layerID: 94
-    mosaicPosition: {x: 4, y: 104}
+    mosaicPosition: {x: 4, y: 118}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: mouth frown
     spriteName: mouth frown
     isGroup: 0
-    parentIndex: 7
+    parentIndex: 8
     spriteID: 3351867065cf89b44b6fb46179e5ffe8
     layerID: 93
-    mosaicPosition: {x: 18, y: 104}
+    mosaicPosition: {x: 38, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: mouth normal
     spriteName: mouth normal
     isGroup: 0
-    parentIndex: 7
+    parentIndex: 8
     spriteID: 1f23562e7499d9f44a95634ec1a8fd84
     layerID: 87
-    mosaicPosition: {x: 16, y: 117}
+    mosaicPosition: {x: 38, y: 15}
     flatten: 0
     isImported: 1
     isVisible: 1

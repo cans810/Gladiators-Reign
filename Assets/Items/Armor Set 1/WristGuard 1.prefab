@@ -48,6 +48,7 @@ MonoBehaviour:
   itemName: WristGuard 1
   texture: {fileID: 0}
   spriteRenderer: {fileID: 4971513717929016556}
+  details: 
   armorPoint: 0
   equippedBy: {fileID: 0}
 --- !u!212 &4971513717929016556
@@ -90,8 +91,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2028347635
-  m_SortingLayer: 4
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 13
   m_Sprite: {fileID: 8511848281071020235, guid: 845a3c8f3a765fa4bb30235eca157b06, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

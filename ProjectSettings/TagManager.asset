@@ -13,7 +13,7 @@ TagManager:
   - Water
   - UI
   - Clickable
-  - 
+  - NoShaderUI
   - 
   - 
   - 
@@ -39,11 +39,11 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: behind
     uniqueID: 575857143
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: middle
     uniqueID: 3941710953

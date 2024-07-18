@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1823238387057176910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7684800926781837409}
+  - component: {fileID: 4754037152725739620}
+  - component: {fileID: 6942545144650664118}
+  m_Layer: 0
+  m_Name: ParticlesController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7684800926781837409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823238387057176910}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4754037152725739620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823238387057176910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359ceeb54f3bc8f41a6df5b6c3a66383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glManager: {fileID: 0}
+  pixelBloodEffect: {fileID: 0}
+  normal: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  leveledUpEffect: {fileID: 2100000, guid: 9617bde57b0756745a847c70b5d3e814, type: 2}
+--- !u!114 &6942545144650664118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823238387057176910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1175dbe26fdbf74ab38a9b88ce045ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfParticles: 15
+  lifetime: 0.6
+  minSpeed: 1
+  maxSpeed: 3
+  bloodColor: {r: 0.5018867, g: 0, b: 0, a: 1}
+  gravityModifier: 1

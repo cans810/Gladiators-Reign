@@ -37,8 +37,13 @@ MonoBehaviour:
       m_Sprite: {fileID: 7218525224839220366, guid: ea4f25a195d49484fbabaea4e33203b9, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: 7218525224839220366, guid: ea4f25a195d49484fbabaea4e33203b9, type: 3}
+    - m_Name: eyeBlink
+      m_Hash: 691746659
+      m_Sprite: {fileID: 8002781870972729227, guid: ea4f25a195d49484fbabaea4e33203b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8002781870972729227, guid: ea4f25a195d49484fbabaea4e33203b9, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 4
+    m_EntryOverrideCount: 5
   - m_Name: HumanNose
     m_Hash: 699534914
     m_CategoryList: []
@@ -95,8 +100,13 @@ MonoBehaviour:
       m_Sprite: {fileID: -1651654472988246487, guid: 19861909c87966b4797691cb5716a36e, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: -1651654472988246487, guid: 19861909c87966b4797691cb5716a36e, type: 3}
+    - m_Name: eyeBlink
+      m_Hash: 691746659
+      m_Sprite: {fileID: -8887697073326930801, guid: 19861909c87966b4797691cb5716a36e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8887697073326930801, guid: 19861909c87966b4797691cb5716a36e, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 4
+    m_EntryOverrideCount: 5
   - m_Name: ElfNose
     m_Hash: 596759709
     m_CategoryList: []
@@ -153,8 +163,13 @@ MonoBehaviour:
       m_Sprite: {fileID: -1200156736704127803, guid: 1a29abad8ebdd8c43ae4b0d419ffaea3, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: -1200156736704127803, guid: 1a29abad8ebdd8c43ae4b0d419ffaea3, type: 3}
+    - m_Name: eyeBlink
+      m_Hash: 691746659
+      m_Sprite: {fileID: 4457513376709269776, guid: 1a29abad8ebdd8c43ae4b0d419ffaea3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4457513376709269776, guid: 1a29abad8ebdd8c43ae4b0d419ffaea3, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 4
+    m_EntryOverrideCount: 5
   - m_Name: OrcNose
     m_Hash: 920479560
     m_CategoryList: []
@@ -211,8 +226,13 @@ MonoBehaviour:
       m_Sprite: {fileID: -1861518435918511254, guid: 39cf3b527b464034f9200069c9294b0d, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: -1861518435918511254, guid: 39cf3b527b464034f9200069c9294b0d, type: 3}
+    - m_Name: eyeBlink
+      m_Hash: 691746659
+      m_Sprite: {fileID: 4672382155972010835, guid: 39cf3b527b464034f9200069c9294b0d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4672382155972010835, guid: 39cf3b527b464034f9200069c9294b0d, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 4
+    m_EntryOverrideCount: 5
   - m_Name: TrollNose
     m_Hash: 943908777
     m_CategoryList: []
@@ -269,8 +289,13 @@ MonoBehaviour:
       m_Sprite: {fileID: 6010523260239221880, guid: c28a4cdb12c0b8b44a0bc45827c5a723, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: 6010523260239221880, guid: c28a4cdb12c0b8b44a0bc45827c5a723, type: 3}
+    - m_Name: eyeBlink
+      m_Hash: 691746659
+      m_Sprite: {fileID: -6114502258485887854, guid: c28a4cdb12c0b8b44a0bc45827c5a723, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6114502258485887854, guid: c28a4cdb12c0b8b44a0bc45827c5a723, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 4
+    m_EntryOverrideCount: 5
   - m_Name: DemonNose
     m_Hash: 154643725
     m_CategoryList: []
@@ -304,5 +329,5 @@ MonoBehaviour:
     m_FromMain: 0
     m_EntryOverrideCount: 3
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 638541550878663123
+  m_ModificationHash: 638565125296785286
   m_Version: 1

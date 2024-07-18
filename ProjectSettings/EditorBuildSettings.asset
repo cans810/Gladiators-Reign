@@ -38,5 +38,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DungeonChapter/DungeonBattleArrangerScene.unity
     guid: be5abcfd83703ee4a893160dd6d460a0
+  - enabled: 1
+    path: Assets/Scenes/DungeonChapter/DungeonTrainingScene.unity
+    guid: 86eb30da8488a914cbcc576f0fd7706a
+  - enabled: 1
+    path: Assets/Scenes/DungeonChapter/DungeonLevelUpScene.unity
+    guid: e9edf5aaa129dff468d60e35bc3211a3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

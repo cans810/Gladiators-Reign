@@ -179,6 +179,55 @@ RectTransform:
   m_AnchoredPosition: {x: -165.46, y: 1.5}
   m_SizeDelta: {x: 1389.61, y: 887.06}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &145291664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145291665}
+  - component: {fileID: 145291666}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &145291665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145291664}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &145291666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145291664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: b9fb12bb4f2edf3469c2089ae52c308b, type: 2}
 --- !u!1 &182968875
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerPos: {fileID: 1364210970}
   glActionsTabPrefab: {fileID: 1930784555516205487, guid: 05a2620e5c47fe943a713f505a1bf25a, type: 3}
-  gladiatorSpacing: 0
+  gladiatorSpacing: 3
   selectedGladiator: {fileID: 0}
 --- !u!1 &444739114
 GameObject:
@@ -784,7 +833,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -2046,6 +2095,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 182968878}
   - {fileID: 782055104}
+  - {fileID: 145291665}
   - {fileID: 263591234}
   - {fileID: 209801904}
   - {fileID: 1247518125}

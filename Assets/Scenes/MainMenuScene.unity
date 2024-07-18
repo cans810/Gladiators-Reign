@@ -337,11 +337,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerGLs: []
   playerInventory: []
+  coins: 0
   startTimer: 0
   completedChapter1: 0
   elapsedTimeInSeconds: 0
   currentDay: 0
   recentlyFought: 0
+  gladiatorSelectedForFight: {fileID: 0}
 --- !u!4 &744342130
 Transform:
   m_ObjectHideFlags: 0
