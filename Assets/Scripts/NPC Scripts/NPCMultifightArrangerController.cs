@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NPCMultifightArrangerController : NPCControllerBase
+{
+    public static int gladiatorAmount;
+
+    void Start()
+    {
+    }
+
+    void Update()
+    {
+    }
+
+    public void loadHomeSceneToSelectFighters()
+    {
+        DungeonHomeController.sceneMode = "MultiFight";
+        ScreenFadeController.Instance.FadeToScene("DungeonHomeScene");
+    }
+
+    public static void randomFighterAmount()
+    {
+        gladiatorAmount = 2;
+    }
+}

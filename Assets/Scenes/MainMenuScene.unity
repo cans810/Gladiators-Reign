@@ -343,7 +343,7 @@ MonoBehaviour:
   elapsedTimeInSeconds: 0
   currentDay: 0
   recentlyFought: 0
-  gladiatorSelectedForFight: {fileID: 0}
+  gladiatorsSelectedForFight: []
 --- !u!4 &744342130
 Transform:
   m_ObjectHideFlags: 0

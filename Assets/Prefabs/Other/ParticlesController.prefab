@@ -49,6 +49,7 @@ MonoBehaviour:
   pixelBloodEffect: {fileID: 0}
   normal: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   leveledUpEffect: {fileID: 2100000, guid: 9617bde57b0756745a847c70b5d3e814, type: 2}
+  healPlusPrefab: {fileID: 1910748703463794496, guid: 4a233487651584c4596c1e7265c18844, type: 3}
 --- !u!114 &6942545144650664118
 MonoBehaviour:
   m_ObjectHideFlags: 0

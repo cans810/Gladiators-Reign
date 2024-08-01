@@ -1272,6 +1272,7 @@ MonoBehaviour:
   waitingForLevelup: 0
   levelUpHandled: 0
   effectedBy_GrimChallenge: 0
+  is_Stunned: 0
 --- !u!114 &564537843875274793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1598,6 +1599,7 @@ MonoBehaviour:
   canUse_RavagersCleave: 0
   canUse_GrimChallenge: 0
   canUse_FrenziedAssault: 0
+  canUse_TitansCharge: 0
 --- !u!1 &8939297336124136910
 GameObject:
   m_ObjectHideFlags: 0

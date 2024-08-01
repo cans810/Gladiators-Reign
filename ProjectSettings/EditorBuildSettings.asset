@@ -12,17 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/FirstGladiatorSelectionScene.unity
     guid: ce53e2e805645d74baa937b79a5e8163
   - enabled: 1
-    path: Assets/Scenes/TownScene.unity
-    guid: 042920ebb965aea419fc1a58b26e1042
-  - enabled: 1
     path: Assets/Scenes/BattleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/HomeScene.unity
-    guid: 62b747d4ba5a79341b3add7ce7b95961
-  - enabled: 1
-    path: Assets/Scenes/ArenaScene.unity
-    guid: a1c482d40e70f0245ab1d61f02b05261
   - enabled: 1
     path: Assets/Scenes/DungeonChapter/DungeonScene.unity
     guid: f82221ab808efc14c86e06825f067fc4
@@ -32,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DungeonChapter/DungeonBlackSmithScene.unity
     guid: e662ac89ce88f2e42ac66a728d85ec58
-  - enabled: 1
-    path: Assets/Scenes/DungeonChapter/BeforeBattleCellScene.unity
-    guid: 66fa5370a872f394797c5571f11669b2
   - enabled: 1
     path: Assets/Scenes/DungeonChapter/DungeonBattleArrangerScene.unity
     guid: be5abcfd83703ee4a893160dd6d460a0
