@@ -11,7 +11,6 @@ public class BloodreaverActions : MonoBehaviour
     public Dictionary<string,bool> boolActionsDict;
     public List<string> actionsList;
 
-    // 1) RAVAGERS CLEAVE ATTRIBUTES
     public Sprite ravagerscleaveTexture;
     public bool canUse_RavagersCleave;
     public bool canUse_GrimChallenge;

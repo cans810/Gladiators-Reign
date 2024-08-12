@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Gladiators Reign.sln"
+    "dotnet.defaultSolution": "Gladiators-Reign.sln"
 }
